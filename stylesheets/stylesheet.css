@@ -22,6 +22,7 @@ h1#titleR {
 
 h2.titleLab {
   color: #910000;
+  text-transform: uppercase;
 }
 
 .btn {
