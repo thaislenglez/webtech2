@@ -20,8 +20,8 @@ h1#titleR {
   font-weight: 600;
 }
 
-h2 {
-  color: #FC4D4D;
+h2.titleLab {
+  color: #910000;
 }
 
 .btn {
