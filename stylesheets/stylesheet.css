@@ -20,8 +20,9 @@ h1#titleR {
   font-weight: 600;
 }
 
-h2#titleLab1, #titleLab2, #titleLab3, #titleLab4, #titleLab5, #titleLab6, #titleLab7, #titleLab8 {
-  color: #910000;
+h2#titleLab1, h2#titleLab2, h2#titleLab3, h2#titleLab4, h2#titleLab5, h2#titleLab6, h2#titleLab7, h2#titleLab8 {
+  /*color: #910000;*/
+  color: red;
   text-transform: uppercase;
 }
 
