@@ -21,8 +21,7 @@ h1#titleR {
 }
 
 h2#titleLab1, h2#titleLab2, h2#titleLab3, h2#titleLab4, h2#titleLab5, h2#titleLab6, h2#titleLab7, h2#titleLab8 {
-  /*color: #910000;*/
-  color: red;
+  color: #910000;
   text-transform: uppercase;
 }
 
