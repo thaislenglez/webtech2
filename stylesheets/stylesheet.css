@@ -20,6 +20,10 @@ h1#titleR {
   font-weight: 600;
 }
 
+h2 {
+  color: #FC4D4D;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
