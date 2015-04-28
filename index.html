@@ -32,31 +32,30 @@ Voor deze opdracht was het de bedoeling om met 4 personen samen te werken en een
 <blockquote>
 <h2>
 <a id="terminal---begrippen-git" class="anchor" href="#terminal---begrippen-git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Terminal -&gt; begrippen GIT:</h2>
-
-<pre><code>**git clone:** Een kopie creëeren van je repository op je laptop op een plaats naar keuze.
-</code></pre>
 </blockquote>
+<pre><code>
+git clone: Een kopie creëeren van je repository op je laptop op een plaats naar keuze.
 
-<pre><code>    **git status:** Geeft de status weer van de huidige rep.
+git status: Geeft de status weer van de huidige rep.
 
-**git pull:** Je haalt hiermee de laatste versie van je repository binnen.
+git pull: Je haalt hiermee de laatste versie van je repository binnen.
 
-**git add:** Als je nieuwe of gewijzigde bestanden toevoegen.
-**git add -A:** De -A staat voor alles, maw alle files.
+git add: Als je nieuwe of gewijzigde bestanden toevoegen.
+git add -A: De -A staat voor alles, maw alle files.
 
-**git commit -m "message":** Je gaat hier committen, dit is de tussenstap van add en push. -m en de dubbele quotes duiden aan dat je hier een message moet meegeven met je commit. 
+git commit -m "message": Je gaat hier committen, dit is de tussenstap van add en push. -m en de dubbele quotes duiden aan dat je hier een message moet meegeven met je commit. 
 
-**git push:** De laatste stap is het pushen. Al je committed bestanden push je door naar jouw repository op GitHub.
+git push: De laatste stap is het pushen. Al je committed bestanden push je door naar jouw repository op GitHub.
 </code></pre>
 
 <blockquote>
 <h2>
 <a id="branches" class="anchor" href="#branches" aria-hidden="true"><span class="octicon octicon-link"></span></a>Branches</h2>
-
+</blockquote>
 <p>Met branches bedoelen we eigenlijk "takken maken". De master branch is de basis of de standaard branch. 
 Als je bijvoorbeeld de branch 'thais' aanmaakt, dan gaan alle bewerkingen in je files niets veranderen in de master branch.
 Wanneer je klaar bent met werken op de 'thais' branch kan je deze mergen met de master branch om daarna alles door te pushen naar de repository.</p>
-</blockquote>
+
 
 <pre><code>git branch &lt;branchname&gt;: Branch aanmaken met naam naar keuze.
 git checkout &lt;branchname&gt;: Switchen van branch.
@@ -68,9 +67,9 @@ git branch -d &lt;branchname&gt;: Verwijderen van aangemaakte branch.
 <blockquote>
 <h2>
 <a id="workflow" class="anchor" href="#workflow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow</h2>
-
-<p><img src="http://i58.tinypic.com/99jln9.jpg" alt=""></p>
 </blockquote>
+<p><img src="http://i58.tinypic.com/99jln9.jpg" alt=""></p>
+
 
 <h2>
 <a id="lab-2-css-animations" class="anchor" href="#lab-2-css-animations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab 2: Css-animations</h2>
@@ -85,8 +84,10 @@ Deze les kregen we 4 opdrachten die we moesten maken met CSS3. </p>
 <li>Opdracht 4: Invliegende elementen naar keuze.</li>
 </ul>
 
-<h2>
-<a id="transitions" class="anchor" href="#transitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Transitions</h2>
+<blockquote>
+  <h2>
+  <a id="transitions" class="anchor" href="#transitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Transitions</h2>
+</blockquote>
 
 <p>"Overgang van iets naar iets zonder tussenstappen", zo werden transitions omschreven tijdens de les. Het is maw een overgang zoals een hover-effect maar minder plotseling, met een effect gespreid over een bepaalde tijd.</p>
 
@@ -94,52 +95,50 @@ Deze les kregen we 4 opdrachten die we moesten maken met CSS3. </p>
 . de CSS eigenschap waar u een effect aan wilt toevoegen
 . de duur van het effect </p>
 
-<h2>
-<a id="transform" class="anchor" href="#transform" aria-hidden="true"><span class="octicon octicon-link"></span></a>Transform</h2>
+<blockquote>
+  <h2>
+  <a id="transform" class="anchor" href="#transform" aria-hidden="true"><span class="octicon octicon-link"></span></a>Transform</h2>
+</blockquote>
 
 <p>De CSS3 transform eigenschap gaat fysiek het uiterlijk van een element veranderen naar de transform vorm die jij gekozen hebt. Het geselecteerde element behoudt zijn oorspronkelijke positie en grootte welke transformatie ook wordt uitgevoerd.</p>
 
-<blockquote>
-<p>Enkele voorbeelden van 2D transformatie vormen zijn:
-. scale() : Element vergroten.
-. rotate() : Roteert een element onder een bepaalde hoek.
-. skew() : Schuintrekken van een element.
+<p>Enkele voorbeelden van 2D transformatie vormen zijn:<br>
+. scale() : Element vergroten.<br>
+. rotate() : Roteert een element onder een bepaalde hoek.<br>
+. skew() : Schuintrekken van een element.<br>
 . translate() : Een element verplaatsen.</p>
-</blockquote>
 
 <p>Om een element in 3D te transformeren moet je de transform-function perspective gebruiken.</p>
 
-<blockquote>
 <p>Enkele voorbeelden:
-. rotateX() - rotateY() - rotate3d(x, y, z) : Deze transformatie vormen zorgen er voor dat een element rond een bepaalde as draait.
+. rotateX() - rotateY() - rotate3d(x, y, z) : Deze transformatie vormen zorgen er voor dat een element rond een bepaalde as draait.<br>
 . perspective() : Perspective voegt een perspectief en een diepte toe aan de 3D-transformaties.</p>
-</blockquote>
 
-<h2>
-<a id="animations" class="anchor" href="#animations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Animations</h2>
+<blockquote>
+  <h2>
+  <a id="animations" class="anchor" href="#animations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Animations</h2>
+</blockquote>
 
 <p>Een animatie laat een element geleidelijk veranderen van de ene stijl naar de andere, zoveel je maar wil. Dit gebeurd door gebruik te maken van keyframes. Animaties starten ook automatisch en kunnen oneindig loopen.</p>
 
-<blockquote>
-<p>Enkele eigenschappen:
-. animation-name: De naam van de animatie.
-. animation-duration: De duur van de animatie.
-. animation-timing-function: Hoe de animatie verloopt (ease-in, linear, ease-out,...).
-. animation-delay: De animatie kan starten met een vertraging.
-. animation-iteration-count: Hoe vaak de animatie wordt afgespeeld.
+<p>Enkele eigenschappen:<br>
+. animation-name: De naam van de animatie.<br>
+. animation-duration: De duur van de animatie.<br>
+. animation-timing-function: Hoe de animatie verloopt (ease-in, linear, ease-out,...).<br>
+. animation-delay: De animatie kan starten met een vertraging.<br>
+. animation-iteration-count: Hoe vaak de animatie wordt afgespeeld.<br>
 . animation-direction: De animatie voor- of achterwaarts afspelen.</p>
-</blockquote>
 
 <h2>
 <a id="lab-3-advanced-javascript" class="anchor" href="#lab-3-advanced-javascript" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab 3: Advanced javascript</h2>
 
 <p>Voor deze opdracht moesten we een todo-app uitwerken in een eigen mini-framework. De to-do items zullen gewone list-items zijn in een unordered list, maar de bedoeling is dat we deze als 'done' kunnen aanduiden met Javascript zonder het gebruik van jQuery. Waarom zouden we de hele jQuery library inladen als dit niet nodig is? Voor mij was dit persoonlijk de moeilijkste les van Webtech2. </p>
 
-<p>Wat heb ik geleerd?
-. Don't repeat yourself! = DRY
-. De performance wordt beter doordat je niet heel de jQuery library moet inladen: laadtijd verminderd
-. Functie's zijn niet flexibel genoeg voor grotere apps
-. Zo goed als alles in javascript erft over van Object()
+<p>Wat heb ik geleerd?<br>
+. Don't repeat yourself! = DRY<br>
+. De performance wordt beter doordat je niet heel de jQuery library moet inladen: laadtijd verminderd<br>
+. Functie's zijn niet flexibel genoeg voor grotere apps<br>
+. Zo goed als alles in javascript erft over van Object()<br>
 . Gebruikt prototypes (voor DRY)</p>
 
 <h2>
@@ -151,25 +150,25 @@ Deze les kregen we 4 opdrachten die we moesten maken met CSS3. </p>
 <a id="functies-die-we-gebruikt-hebben-tijdens-de-les" class="anchor" href="#functies-die-we-gebruikt-hebben-tijdens-de-les" aria-hidden="true"><span class="octicon octicon-link"></span></a>Functies die we gebruikt hebben tijdens de les:</h3>
 
 <blockquote>
-<p><strong>API</strong>
+<p><strong>API</strong><br>
 API staat voor Application Programming Interface en is een "bibliotheek" waar publieke data inzit die iedereen kan opvragen met een applicatie.</p>
 
-<p><strong>JSON</strong>
+<p><strong>JSON</strong><br>
 Json betekent JavaScript Object Notation, het is makkelijker en overzichtelijker waardoor je goed kan bundelen. Dit maakt Json makkelijker dan XML en sneller met js.</p>
 
-<p><strong>JSONP</strong>
+<p><strong>JSONP</strong><br>
 JSON met padding, wordt gebruikt voor callbacks.</p>
 
-<p><strong>HTML5 Geolocation</strong>
+<p><strong>HTML5 Geolocation</strong><br>
 Hiermee kan je de geografische positie (coördinaten) van een gebruiker opvragen en weergeven. Deze coördinaten konden we dan gebruiken in combinatie met de forecast API.</p>
 
-<p><strong>AJAX</strong>
+<p><strong>AJAX</strong><br>
 Dit is asynchronous javascript en XML / JSON. Dit zorgt ervoor dat je de pagina niet moet refreshen om nieuwe data op te halen. Assymchroom in de definitie wilt zeggen dat het niet gelijktijdig moet.
 AJAXcall = XHRcall -&gt; ik doe een verzoek nr de server met XHTML.</p>
 
-<p><strong>Andere:</strong>
-  . localstorage (zoals een cookie maar met meer dataopslag)
-  . fastclick.js (verwijdert 300ms delay op mobiele toestellen + dubbele clicks vermijden)
+<p><strong>Andere:</strong><br>
+  . localstorage (zoals een cookie maar met meer dataopslag)<br>
+  . fastclick.js (verwijdert 300ms delay op mobiele toestellen + dubbele clicks vermijden)<br>
   . use strict (cleanere code schrijven)</p>
 </blockquote>
 
@@ -180,34 +179,34 @@ AJAXcall = XHRcall -&gt; ik doe een verzoek nr de server met XHTML.</p>
 Doordat Node.JS een heel moeilijk onderdeel bleek te zijn, werden hier 2 lessen over gegeven. In de 2e les kregen we de opdracht om een applicatie te maken waarbij meerdere gebruikers zijn/haar naam moesten ingeven en daarbij een korte vraag konden stellen. Deze data moest direct verstuurd worden naar onze database, MongoDB. Via een live-update werden de vragen met naam voor iedereen tegelijkertijd op zijn/haar scherm getoond. Dit doen we met websockets. Hiervoor gebruikten we socket.io. </p>
 
 <blockquote>
-<p><strong>Maar wat is nu Node.JS?</strong>
+<p><strong>Maar wat is nu Node.JS?</strong></blockquote><br>
 Node.js is een server-side JavaScript gebouwd op google's V8 JavaScript-Engine, wat we moet PHP kunnen doen we hier met Javascript. Het wordt vooral gebruikt voor apps die hun data live moeten updaten. </p>
-</blockquote>
 
-<p><strong>Waarom zouden we het gebruiken?</strong>
-. Javascript
-. Asynchrone werkwijze
-. Single threaded
-. Modulair
+<blockquote>
+<p><strong>Waarom zouden we het gebruiken?</strong><br></blockquote>
+. Javascript<br>
+. Asynchrone werkwijze<br>
+. Single threaded<br>
+. Modulair<br>
 . Grote community</p>
 
 <blockquote>
-<p>** Wat is MongoDB? **
+<p><strong>Wat is MongoDB?</strong></blockquote>
 MongoDB is een databanksysteem dat gebruikt wordt op hoog niveau, het is een flexibel datamodel en is document georiënteerd.
 Dit databanksysteem is NoSQL. Dit wil zeggen dat je het op meerdere servers kan draaien en het maakt gebruik van simpele queries. MongoDB maakt gebruik van het rest principe : Get, Post, Put, Delete.</p>
-</blockquote>
 
-<p><strong>Hoe beginnen we hieraan?</strong>
+<blockquote><p><strong>Hoe beginnen we hieraan?</strong><br></blockquote>
 Om Node.js en MongoDB te kunnen draaien, gebruiken we voor alles onze Terminal. </p>
 
-<blockquote>
-<p>Installeer eerst node.js</p>
+<blockquote><strong>
+<p>Installeer eerst node.js</strong></p>
 </blockquote>
 
-<p>Installeer eerst node.js via de website.</p>
+<p>Installeer eerst node.js via de website.<br>
+https://nodejs.org/</p>
 
 <blockquote>
-<p>Installeer MongoDB via brew in de Terminal</p>
+<p><strong>Installeer MongoDB via brew in de Terminal</strong></p>
 </blockquote>
 
 <p>Brew is alleen voor de OSX gebruikers, Windows gebruikers installeren dit op een andere manier.
@@ -221,14 +220,14 @@ mongo
 </code></pre>
 
 <blockquote>
-<p>Installeer de dependencies, anders kan de app nooit werken.</p>
+<p><strong>Installeer de dependencies, anders kan de app nooit werken.</strong></p>
 </blockquote>
 
 <pre><code>$npm install
 </code></pre>
 
 <blockquote>
-<p>Installeer express</p>
+<p><strong>Installeer express</strong></p>
 </blockquote>
 
 <pre><code>npm install express -g
@@ -253,9 +252,9 @@ nodemon app.js
 </code></pre>
 
 <blockquote>
-<p><strong>Websockets</strong>
+<p><strong>Websockets</strong></blockquote><br>
 Websockets zorgen ervoor dat er een constante communicatie is tussen de server en de browser. Dit zorgt voor de live-update, in eender welke browser.</p>
-</blockquote>
+
 
 <pre><code>var io = require('socket.io')(server);
 server.listen(3000);
@@ -326,31 +325,24 @@ block content
 
 <p>Angular.JS is een js framework in samenwerking met Google dat volledig clientside werkt. Dit wil zeggen dat je geen server meer nodig hebt, alle berekeningen worden via de browser gemaakt. Dit framework werkt volgens het MVC principe. MVC staat voor models (class) - views (weergave) - controllers (via methods in). Verder heeft Angular geen dependencies nodig. Je hebt dus geen JQuery nodig om het te laten werken.</p>
 
-<p><strong>Hoe Angular.js gebruiken?</strong>
-<strong>Enkele voorbeelden:</strong></p>
+<blockquote><p><strong>Hoe Angular.js gebruiken?</strong>
+<strong>Enkele voorbeelden:</strong></p></blockquote>
 
-<blockquote>
-<p>ng-app
-Declareert het root-element (het hoogste element in de structuur) van een Angular-applicatie = HTML.</p>
-</blockquote>
+
+<p><strong>Ng-app</strong> declareert het root-element (het hoogste element in de structuur) van een Angular-applicatie = HTML.</p>
+
 
 <pre><code>&lt;!doctype html&gt;
 &lt;html ng-app="app"&gt;
 </code></pre>
 
-<blockquote>
-<p>ng-bind
-Gaat de inhoud van een DOM-element linken aan de waarde van een expressie.</p>
-</blockquote>
+<p><strong>Ng-bind</strong> gaat de inhoud van een DOM-element linken aan de waarde van een expressie.</p>
 
 <pre><code>&lt;input type="text" placeholder="firstname" ng-model="firstname"&gt;
 &lt;h2&gt;Welcome &lt;span ng-bind="firstname"&gt;&lt;/span&gt;&lt;/h2&gt;
 </code></pre>
 
-<blockquote>
-<p>ng-controller
-Hier wordt een JavaScript-controller-klasse gekoppeld aan de view. Controllers voorzien de scope van functies en waarden.</p>
-</blockquote>
+<p>Bij de <strong>ng-controller</strong> wordt een JavaScript-controller-klasse gekoppeld aan de view. Controllers voorzien de scope van functies en waarden.</p>
 
 <pre><code>&lt;div ng-controller="weerController"&gt;&lt;/div&gt;
 
@@ -360,8 +352,7 @@ angular.module("app").controller("weerController", weerController);
 <h2>
 <a id="lab-7-sass" class="anchor" href="#lab-7-sass" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab 7: SASS</h2>
 
-<h4>
-<a id="sass-is-een-extensie-van-css-en-maakt-gebruik-van-variabelen-nesting-mixins-inheritance-en-operators-om-de-stylesheet-zo-ordelijk-mogelijk-te-maken-het-gevolg-hiervan-is-dat-je-minder-code-moet-schrijven-en-je-stylesheet-wordt-ook-veel-overzichtelijker" class="anchor" href="#sass-is-een-extensie-van-css-en-maakt-gebruik-van-variabelen-nesting-mixins-inheritance-en-operators-om-de-stylesheet-zo-ordelijk-mogelijk-te-maken-het-gevolg-hiervan-is-dat-je-minder-code-moet-schrijven-en-je-stylesheet-wordt-ook-veel-overzichtelijker" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sass is een extensie van css en maakt gebruik van variabelen, nesting, mixins, inheritance en operators om de stylesheet zo ordelijk mogelijk te maken. Het gevolg hiervan is dat je minder code moet schrijven en je stylesheet wordt ook veel overzichtelijker.</h4>
+</p>Sass is een extensie van css en maakt gebruik van variabelen, nesting, mixins, inheritance en operators om de stylesheet zo ordelijk mogelijk te maken. Het gevolg hiervan is dat je minder code moet schrijven en je stylesheet wordt ook veel overzichtelijker.</p>
 
 <blockquote>
 <p><strong>Sass installeren</strong></p>
@@ -489,9 +480,9 @@ Voorbeeld:</p>
 </code></pre>
 
 <blockquote>
-<p>Nog een tip!
+<p>Nog een tip!</blockquote>
 Chrome -&gt; settings -&gt; enable CSS source maps</p>
-</blockquote>
+
 
 <h2>
 <a id="lab-8-gulpjs" class="anchor" href="#lab-8-gulpjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lab 8: Gulp.JS</h2>
