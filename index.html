@@ -510,10 +510,15 @@ Ga in de terminal naar je project en geef deze command in:</p>
 <pre><code>gulp
 </code></pre>
 
-<p>Voorbeeld gulp:</p>
+<p>Voorbeeld gulpfile.js:</p>
 
-<pre><code>gulp.task('default',['css']);
+<pre><code>
+var gulp = require('gulp'); 
+  // gulp inladen
+
+gulp.task('default',['css']);
   // in terminal : gulp default -> voert deze taak uit
+  
 gulp.task('css', function() {
   // in terminal : gulp css -> voert deze taak uit
   gulp.src('styles/*.css')
