@@ -518,7 +518,7 @@ var gulp = require('gulp');
 
 gulp.task('default',['css']);
   // in terminal : gulp default -> voert deze taak uit
-  
+
 gulp.task('css', function() {
   // in terminal : gulp css -> voert deze taak uit
   gulp.src('styles/*.css')
@@ -527,6 +527,7 @@ gulp.task('css', function() {
   console.log("css");
 
   gulp.task('watch', function(){
+  // gulp watch in terminal -> veranderingen in css worden direct automatisch doorgestuurd
     gulp.watch('./css/*.css', ['css']);
   });
 });
