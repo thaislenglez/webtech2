@@ -499,6 +499,36 @@ npm init
 npm install gulp --save-dev
 </code></pre>
 
+<p>Kijk of gulp geïnstalleerd is:</p>
+
+<pre><code>gulp -v
+</code></pre>
+
+<p>Om gulp te starten:
+Ga in de terminal naar je project en geef deze command in:</p>
+
+<pre><code>gulp
+</code></pre>
+
+<p>Voorbeeld gulp:</p>
+
+<pre><code>gulp.task('default',['css']);
+
+gulp.task('css', function() {
+  // place code for your default task here
+  gulp.src('styles/*.css')
+    .pipe(minifyCss({compatibility: 'ie8'}))
+    .pipe(gulp.dest('dist'));
+  console.log("css");
+
+  gulp.task('watch', function(){
+    gulp.watch('./css/*.css', ['css']);
+  });
+});
+</code></pre>
+
+
+
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/thaislenglez/webtech2">Webtechnologie 2</a> is maintained by <a href="https://github.com/thaislenglez">thaislenglez</a>.</span>
 
