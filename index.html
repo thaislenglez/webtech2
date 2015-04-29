@@ -513,9 +513,9 @@ Ga in de terminal naar je project en geef deze command in:</p>
 <p>Voorbeeld gulp:</p>
 
 <pre><code>gulp.task('default',['css']);
-
+  // in terminal : gulp default -> voert deze taak uit
 gulp.task('css', function() {
-  // place code for your default task here
+  // in terminal : gulp css -> voert deze taak uit
   gulp.src('styles/*.css')
     .pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(gulp.dest('dist'));
